@@ -1,24 +1,9 @@
 # vue_scss1
 
-## Project setup
-```
-npm install
-```
+## Vue.js + scss
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+`/src/assets/sass/variables.scss`で定義した`$red` `$blue` `$green`変数を  
+`vue.config.js`で読み込み、`HelloWorld.vue`で使用する。
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+以下をサブモジュールとして配置して`HelloWorld.vue`で使用する。
+https://github.com/geoffgraham/animate.scss

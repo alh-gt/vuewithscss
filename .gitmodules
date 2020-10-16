@@ -1,0 +1,3 @@
+[submodule "src/assets/sass/animate"]
+	path = src/assets/sass/animate
+	url = https://github.com/geoffgraham/animate.scss.git
